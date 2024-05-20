@@ -49,3 +49,12 @@
 #test{
     margin: 20px;
 }
+
+#row_1{
+    color: white;
+    background-color: #20a9e5;
+}
+
+#row_2, #row_4{
+    background-color: #b1e5f2;
+}
