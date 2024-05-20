@@ -1,5 +1,7 @@
 /* Ho usato tanti id piuttosto che classi perchè secondo me erano elementi univoci. Per alcuni piccoli elementi potevo mettere lo stile direttamente nell'html, ma mi sembra di aver capito che è sempre meglio dividere la struttura dalla formattazzione */
 
+/* Con i tag forse potevo essere più preciso ma data la piccola entità dell'esercizio non lo ritenevo necessario */
+
 
 *{
     box-sizing: border-box;
@@ -31,11 +33,19 @@
     font-size: 15px;
 }
 
-#tim_image{
-    margin-top: 20px;
+.margin{
+    margin: 10px 0;
 }
 
 .image_info{
     font-style: italic;
     font-size: 15px;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+#test{
+    margin: 20px;
 }
