@@ -1,0 +1,41 @@
+/* Ho usato tanti id piuttosto che classi perchè secondo me erano elementi univoci. Per alcuni piccoli elementi potevo mettere lo stile direttamente nell'html, ma mi sembra di aver capito che è sempre meglio dividere la struttura dalla formattazzione */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header_div{
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/pattern.png);
+    background-color: rgba(78,160,255,255);
+}
+
+#logo{
+    width: 20%;
+    height: 100%;
+}
+
+#title{
+    margin-top: 20px;
+}
+
+#author{
+    color: rgba(90,191,235,255);
+}
+
+#date{
+    font-size: 15px;
+}
+
+#tim_image{
+    margin-top: 20px;
+}
+
+.image_info{
+    font-style: italic;
+    font-size: 15px;
+}
